@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int main (){
+  
+  int x;
+  int y;
+  int z;
+  
+  cout<<"Masukkan nilai x: ";
+  cin>>x;
+  cout<<"Massukkan nilai y: ";
+  cin>>y;
+  z=x+y;
+  cout<<x<<"+"<<y<<"="<<z<<endl;
+  
+  if (z >= 0) {
+  cout<<"Nilai"<<z<<"Positif"<<endl;
+  }else if (z < 0){
+  cout<<"Nilai"<<z<<"Negatif"<<endl;
+  }
+  cout<<"Program ini adalah program berhitung"<<endl;
+  
+  return 0;
+  }
